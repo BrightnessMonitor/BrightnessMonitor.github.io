@@ -12,4 +12,7 @@ rm ../*.js
 
 # copy the html files to the root folder
 cp -r build/html/* ../
+cp -r build/html/.[^.]* ../
+
+# add files to gitgit push
 git add -A
