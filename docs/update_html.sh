@@ -12,3 +12,4 @@ rm ../*.js
 
 # copy the html files to the root folder
 cp -r build/html/* ../
+git add -A
