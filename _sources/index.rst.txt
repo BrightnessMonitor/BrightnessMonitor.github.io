@@ -10,7 +10,53 @@ Welcome to Brightness Monitor Doc's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+Einleitung
+==========
 
+.. toctree::
+   :maxdepth: 2
+
+   einleitung
+
+Aufgabenstellung
+================
+
+.. toctree::
+   :maxdepth: 2
+
+   aufgabenstellung
+
+Lösungsansatz
+=============
+
+.. toctree::
+   :maxdepth: 2
+
+   loesungsansatz
+
+Website
+=======
+
+.. toctree::
+   :maxdepth: 2
+
+   client
+
+Website
+=======
+
+.. toctree::
+   :maxdepth: 2
+
+   website
+
+Daten Auswertung
+================
+
+.. toctree::
+   :maxdepth: 2
+
+   auswertung
 
 Indices and tables
 ==================

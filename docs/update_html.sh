@@ -14,5 +14,8 @@ rm ../*.js
 cp -r build/html/* ../
 cp -r build/html/.[^.]* ../
 
+# add .nojekyll
+touch ../_static/.nojekyll
+
 # add files to gitgit push
 git add -A
