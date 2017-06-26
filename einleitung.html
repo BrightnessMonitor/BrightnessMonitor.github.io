@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Über das Programm &mdash; Brightness Monitor Doc 1.0.0. Dokumentation</title>
+  <title>Idee &mdash; Brightness Monitor Doc 1.0.0. Dokumentation</title>
   
 
   
@@ -36,6 +36,7 @@
               href="genindex.html"/>
         <link rel="search" title="Suche" href="search.html"/>
     <link rel="top" title="Brightness Monitor Doc 1.0.0. Dokumentation" href="index.html"/>
+        <link rel="next" title="Aufgabe" href="aufgabenstellung.html"/>
         <link rel="prev" title="Welcome to Brightness Monitor Doc’s documentation!" href="index.html"/> 
 
   
@@ -90,12 +91,38 @@
             
             
               <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Über das Programm</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Idee</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#probleme-vorab">Probleme vorab</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#uber-das-programm">Über das Programm</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#raspberry-pi-client">Raspberry Pi Client</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#website">Website</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#dokumentation">Dokumentation</a></li>
 </ul>
 </li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="aufgabenstellung.html">Aufgabe</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="loesungsansatz.html">Konzept</a></li>
+<li class="toctree-l1"><a class="reference internal" href="loesungsansatz.html#server">Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="loesungsansatz.html#client">Client</a></li>
+<li class="toctree-l1"><a class="reference internal" href="loesungsansatz.html#auswertung">Auswertung</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="client.html">Verwendete Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="client.html#sensoabfrage">Sensoabfrage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="client.html#probleme">Probleme</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="website.html">Verwendete Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="website.html#sensoabfrage">Sensoabfrage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="website.html#probleme">Probleme</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="auswertung.html">Verwendete Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="auswertung.html#sensoabfrage">Sensoabfrage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="auswertung.html#probleme">Probleme</a></li>
 </ul>
 
             
@@ -140,7 +167,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Über das Programm</li>
+      <li>Idee</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -159,7 +186,21 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="uber-das-programm">
+  <div class="section" id="idee">
+<h1>Idee<a class="headerlink" href="#idee" title="Link zu dieser Überschrift">¶</a></h1>
+<p>Es sollen die exakten Sonnenstunden an einem Standort erfasst werden. Dazu wird die Helligkeit mit dem Photowiderstand
+gemessen und von einem Raspberry Pi verarbeitet. Als Ausgabe dessen wird sein: Sonne, Wolken mit verminderter
+Wolkendichte, Wolken mit verstärkter Wolkendichte, Dunkel. Gleichzeitig wird die Dauer dieser Zustände gemessen und
+in einer Datenbank gespeichert.</p>
+</div>
+<div class="section" id="probleme-vorab">
+<h1>Probleme vorab<a class="headerlink" href="#probleme-vorab" title="Link zu dieser Überschrift">¶</a></h1>
+<p>Das erste Problem stellt der Helligkeitsverlauf über einen Tag dar: umso rechtwinkliger die Sonne zum Standort, desto
+intensiver wird das Licht. Daraus würden fehlerhafte Messdaten hervorgehen, denn z.B. eine Wolke die mittags die Sonne
+verdeckt könnte äquivalent zu Sonnenschein nach dem Sonnenaufgang sein. Es muss also eine Justierung der Messdaten
+stattfinden.</p>
+</div>
+<div class="section" id="uber-das-programm">
 <h1>Über das Programm<a class="headerlink" href="#uber-das-programm" title="Link zu dieser Überschrift">¶</a></h1>
 <p>Das Programm dient zur Auswertung von den Helligkeitswerten von mehreren Standorten. Dazu wurde
 eine Zentrale Webseite mit einer API Schnittstelle erstellt auf welche mehrere Raspberry Pi’s zugreifen.</p>
@@ -210,6 +251,8 @@ eine Zentrale Webseite mit einer API Schnittstelle erstellt auf welche mehrere R
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="aufgabenstellung.html" class="btn btn-neutral float-right" title="Aufgabe" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="index.html" class="btn btn-neutral" title="Welcome to Brightness Monitor Doc’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
