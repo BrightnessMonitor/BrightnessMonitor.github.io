@@ -23,6 +23,13 @@ Die Website wertet mit jeden neuen daten upload die daten aus und gib diese Graf
 
 Das Projekt besteht aus 3 bestandteilen.
 
+.. figure:: _static/img/SoftwareDesign.png
+    :alt: Software Design
+
+    Software Design
+
+.. index:: Software Design
+
 Raspberry Pi Client
 ^^^^^^^^^^^^^^^^^^^
 

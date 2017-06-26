@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29864292-f563-4787-92f4-ac95a9fb10c2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_images/Heroku_logo.png" afterPath="$PROJECT_DIR$/_images/Heroku_logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_images/raspberry-pi_01.jpg" afterPath="$PROJECT_DIR$/_images/raspberry-pi_01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_images/website_01.png" afterPath="$PROJECT_DIR$/_images/website_01.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_static/img/Heroku_logo.png" afterPath="$PROJECT_DIR$/_static/img/Heroku_logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_static/img/client-terminal-window.png" afterPath="$PROJECT_DIR$/_static/img/client-terminal-window.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_static/img/raspberry-pi_01.jpg" afterPath="$PROJECT_DIR$/_static/img/raspberry-pi_01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_static/img/raspberry-pi_02.jpg" afterPath="$PROJECT_DIR$/_static/img/raspberry-pi_02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_static/img/raspberry-pi_03.jpg" afterPath="$PROJECT_DIR$/_static/img/raspberry-pi_03.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_static/img/website_01.png" afterPath="$PROJECT_DIR$/_static/img/website_01.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objects.inv" afterPath="$PROJECT_DIR$/objects.inv" />
+    <list default="true" id="29864292-f563-4787-92f4-ac95a9fb10c2" name="Default" comment="update">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_images/SoftwareDesign.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_static/img/SoftwareDesign.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/source/_static/img/SoftwareDesign.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_static/uml/SoftwareDesign.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/source/_static/uml/SoftwareDesign.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sources/einleitung.rst.txt" afterPath="$PROJECT_DIR$/_sources/einleitung.rst.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/einleitung.rst" afterPath="$PROJECT_DIR$/docs/source/einleitung.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/einleitung.html" afterPath="$PROJECT_DIR$/einleitung.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/genindex.html" afterPath="$PROJECT_DIR$/genindex.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.html" afterPath="$PROJECT_DIR$/search.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searchindex.js" afterPath="$PROJECT_DIR$/searchindex.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,55 +44,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="website.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/source/website.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="client.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/source/client.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loesungsansatz.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/source/loesungsansatz.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="einleitung.rst" pinned="false" current-in-tab="false">
+      <file leaf-file-name="einleitung.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/source/einleitung.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="256">
+              <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="135">
-                <caret line="9" column="67" lean-forward="false" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -130,8 +81,8 @@
         <option value="$PROJECT_DIR$/docs/source/loesungsansatz.rst" />
         <option value="$PROJECT_DIR$/docs/source/client.rst" />
         <option value="$PROJECT_DIR$/docs/source/index.rst" />
-        <option value="$PROJECT_DIR$/docs/source/einleitung.rst" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/docs/source/einleitung.rst" />
       </list>
     </option>
   </component>
@@ -480,19 +431,25 @@
       <option name="project" value="LOCAL" />
       <updated>1498474282190</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update">
+      <created>1498474318736</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1498474318736</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25662652" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25662652" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33547926" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -675,14 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/einleitung.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -691,6 +640,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/einleitung.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
