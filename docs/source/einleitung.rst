@@ -1,3 +1,19 @@
+Idee
+----
+
+Es sollen die exakten Sonnenstunden an einem Standort erfasst werden. Dazu wird die Helligkeit mit dem Photowiderstand
+gemessen und von einem Raspberry Pi verarbeitet. Als Ausgabe dessen wird sein: Sonne, Wolken mit verminderter
+Wolkendichte, Wolken mit verstärkter Wolkendichte, Dunkel. Gleichzeitig wird die Dauer dieser Zustände gemessen und
+in einer Datenbank gespeichert.
+
+Probleme vorab
+--------------
+
+Das erste Problem stellt der Helligkeitsverlauf über einen Tag dar: umso rechtwinkliger die Sonne zum Standort, desto
+intensiver wird das Licht. Daraus würden fehlerhafte Messdaten hervorgehen, denn z.B. eine Wolke die mittags die Sonne
+verdeckt könnte äquivalent zu Sonnenschein nach dem Sonnenaufgang sein. Es muss also eine Justierung der Messdaten
+stattfinden.
+
 Über das Programm
 -----------------
 Das Programm dient zur Auswertung von den Helligkeitswerten von mehreren Standorten. Dazu wurde

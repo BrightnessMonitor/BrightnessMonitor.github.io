@@ -1,5 +1,14 @@
 # Docs
 
+Online Dokumentation:
+
+* https://brightnessmonitor.github.io/
+* http://brightness-monitor-docs.readthedocs.io/de/latest/index.html
+
+Quellcode:
+* Client: https://github.com/BrightnessMonitor/BrightnessMonitorClient
+* Server: https://github.com/BrightnessMonitor/BrightnessMonitorWeb
+
 # Website updaten
 
 ```bash
