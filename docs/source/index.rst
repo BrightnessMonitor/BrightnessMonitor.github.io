@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Brightness Monitor Doc's documentation!
-==================================================
+Brightness Monitor Dokumentation
+================================
 
 .. toctree::
    :maxdepth: 2
@@ -34,8 +34,8 @@ Lösungsansatz
 
    loesungsansatz
 
-Website
-=======
+Client
+======
 
 .. toctree::
    :maxdepth: 2
@@ -61,6 +61,10 @@ Daten Auswertung
 Indices and tables
 ==================
 
+.. toctree::
+   :maxdepth: 2
+
+   literaturverzeichnis
+
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`

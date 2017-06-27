@@ -1,3 +1,6 @@
+Lösungsansatz
+=============
+
 Konzept
 -------
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr,

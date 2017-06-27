@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Verwendete Hardware &mdash; Brightness Monitor Doc 1.0.0. Dokumentation</title>
+  <title>Client &mdash; Brightness Monitor Doc 1.0.0. Dokumentation</title>
   
 
   
@@ -35,7 +35,9 @@
         <link rel="index" title="Stichwortverzeichnis"
               href="genindex.html"/>
         <link rel="search" title="Suche" href="search.html"/>
-    <link rel="top" title="Brightness Monitor Doc 1.0.0. Dokumentation" href="index.html"/> 
+    <link rel="top" title="Brightness Monitor Doc 1.0.0. Dokumentation" href="index.html"/>
+        <link rel="next" title="Verwendete Hardware" href="website.html"/>
+        <link rel="prev" title="Lösungsansatz" href="loesungsansatz.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -89,16 +91,21 @@
             
             
               <ul>
-<li class="toctree-l1"><a class="reference internal" href="einleitung.html">Über das Programm</a></li>
+<li class="toctree-l1"><a class="reference internal" href="einleitung.html">Einleitung</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="aufgabenstellung.html">Aufgabe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="aufgabenstellung.html">Aufgabenstellung</a></li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="loesungsansatz.html">Konzept</a></li>
-<li class="toctree-l1"><a class="reference internal" href="loesungsansatz.html#server">Server</a></li>
-<li class="toctree-l1"><a class="reference internal" href="loesungsansatz.html#client">Client</a></li>
-<li class="toctree-l1"><a class="reference internal" href="loesungsansatz.html#auswertung">Auswertung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="loesungsansatz.html">Lösungsansatz</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Client</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#verwendete-hardware">Verwendete Hardware</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sensoabfrage">Sensoabfrage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#probleme">Probleme</a></li>
+</ul>
+</li>
 </ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="website.html">Verwendete Hardware</a></li>
@@ -153,7 +160,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Verwendete Hardware</li>
+      <li>Client</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -172,17 +179,27 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="verwendete-hardware">
-<h1>Verwendete Hardware<a class="headerlink" href="#verwendete-hardware" title="Link zu dieser Überschrift">¶</a></h1>
+  <div class="section" id="client">
+<h1>Client<a class="headerlink" href="#client" title="Link zu dieser Überschrift">¶</a></h1>
+<div class="section" id="verwendete-hardware">
+<h2>Verwendete Hardware<a class="headerlink" href="#verwendete-hardware" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
+<div class="figure" id="id1">
+<img alt="Software Design" src="_images/raspberry-pi_03.jpg" />
+<p class="caption"><span class="caption-text">Raspberry Pi mit Sensor</span></p>
+</div>
 </div>
 <div class="section" id="sensoabfrage">
-<h1>Sensoabfrage<a class="headerlink" href="#sensoabfrage" title="Link zu dieser Überschrift">¶</a></h1>
+<h2>Sensoabfrage<a class="headerlink" href="#sensoabfrage" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
 </div>
 <div class="section" id="probleme">
-<h1>Probleme<a class="headerlink" href="#probleme" title="Link zu dieser Überschrift">¶</a></h1>
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
+<h2>Probleme<a class="headerlink" href="#probleme" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Das erste Problem stellt der Helligkeitsverlauf über einen Tag dar: umso rechtwinkliger die Sonne zum Standort, desto
+intensiver wird das Licht. Daraus würden fehlerhafte Messdaten hervorgehen, denn z.B. eine Wolke die mittags die Sonne
+verdeckt könnte äquivalent zu Sonnenschein nach dem Sonnenaufgang sein. Es muss also eine Justierung der Messdaten
+stattfinden.</p>
+</div>
 </div>
 
 
@@ -192,6 +209,15 @@
            </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="website.html" class="btn btn-neutral float-right" title="Verwendete Hardware" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="loesungsansatz.html" class="btn btn-neutral" title="Lösungsansatz" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>

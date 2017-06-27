@@ -1,18 +1,21 @@
+Einleitung
+==========
+
 Idee
 ----
 
-Es sollen die exakten Sonnenstunden an einem Standort erfasst werden. Dazu wird die Helligkeit mit dem Photowiderstand
+Es sollen die exakten Sonnenstunden an mehreren Standorten erfasst werden. Dazu wird die Helligkeit mit dem Photowiderstand
 gemessen und von einem Raspberry Pi verarbeitet. Als Ausgabe dessen wird sein: Sonne, Wolken mit verminderter
 Wolkendichte, Wolken mit verstärkter Wolkendichte, Dunkel. Gleichzeitig wird die Dauer dieser Zustände gemessen und
 in einer Datenbank gespeichert.
 
-Probleme vorab
---------------
+.. rubric:: References
 
-Das erste Problem stellt der Helligkeitsverlauf über einen Tag dar: umso rechtwinkliger die Sonne zum Standort, desto
-intensiver wird das Licht. Daraus würden fehlerhafte Messdaten hervorgehen, denn z.B. eine Wolke die mittags die Sonne
-verdeckt könnte äquivalent zu Sonnenschein nach dem Sonnenaufgang sein. Es muss also eine Justierung der Messdaten
-stattfinden.
+.. [BiDB79] Biskup, J.; Dayal, U.; Bernstein, P.A..: Synthesizing independent database schemas. In: ACM SIGMOD 1979 Int. Conf. On Management of Data Proceedings, S. 143-151.
+
+.. [BeBe79a] Beeri, C.; Bernstein, P.A.: Computational problems related to the design of normal relational schemas. ACM Trans. Database Syst., No. 1, 1979, S. 30-59.
+
+.. [BeBe79b] Beeri, C.; Bernstein, P.A.: Computers are stupid. ACM Trans. Database Syst., No. 4, 1979, S. 253-266.
 
 Über das Programm
 -----------------
