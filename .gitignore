@@ -1,2 +1,9 @@
-/docs/build
+# Enviroment
 /venv/
+
+# Build files
+/docs/build
+
+# JabRef Files
+docs/source/references.bib.bak
+docs/source/references.bib.sav

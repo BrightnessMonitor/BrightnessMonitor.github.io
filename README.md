@@ -30,6 +30,7 @@ git push
 pip install sphinx
 pip install sphinx-autobuild
 pip install sphinx_rtd_theme
+pip install sphinxcontrib-bibtex
 ```
 
 # Restukture Text
