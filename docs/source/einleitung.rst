@@ -21,6 +21,8 @@ ausgibt.
 
 .. figure:: _static/img/SoftwareDesign.png
     :alt: Software Design
+    :align: center
+    :scale: 50%
 
     Software Design
 
@@ -38,6 +40,8 @@ Der Client wurde in Python 2.7 für den Raspberry Pi geschrieben.
 
 .. figure:: _static/img/raspberry-pi_01.jpg
     :alt: Raspberry Pi
+    :align: center
+    :scale: 25%
 
     Raspberry Pi Brightness Monitor Client mit WLAN
 
@@ -62,6 +66,8 @@ Der Server wurde in das Python Web Framework "Django" geschrieben und auf einer 
 
 .. figure:: _static/img/website_01.png
     :alt: Screenshot
+    :align: center
+    :scale: 33%
 
     Screenshot von https://infinite-crag-79176.herokuapp.com/
 

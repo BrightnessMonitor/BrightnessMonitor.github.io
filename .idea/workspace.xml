@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29864292-f563-4787-92f4-ac95a9fb10c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/source/_static/img/Heroku_deployment.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/source/_static/img/Models.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/source/_static/img/hardware_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/source/_static/uml/Models.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/aufgabenstellung.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/source/loesungsansatz.rst" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/_static/img/SoftwareDesign.png" afterPath="$PROJECT_DIR$/docs/source/_static/img/SoftwareDesign.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/_static/img/client-terminal-window.png" afterPath="$PROJECT_DIR$/docs/source/_static/img/client-terminal-window.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/_static/img/raspberry-pi_01.jpg" afterPath="$PROJECT_DIR$/docs/source/_static/img/raspberry-pi_01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/_static/img/raspberry-pi_02.jpg" afterPath="$PROJECT_DIR$/docs/source/_static/img/raspberry-pi_02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/_static/img/raspberry-pi_03.jpg" afterPath="$PROJECT_DIR$/docs/source/_static/img/raspberry-pi_03.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/_static/img/website_01.png" afterPath="$PROJECT_DIR$/docs/source/_static/img/website_01.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/auswertung.rst" afterPath="$PROJECT_DIR$/docs/source/auswertung.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/client.rst" afterPath="$PROJECT_DIR$/docs/source/client.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/conf.py" afterPath="$PROJECT_DIR$/docs/source/conf.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/einleitung.rst" afterPath="$PROJECT_DIR$/docs/source/einleitung.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/index.rst" afterPath="$PROJECT_DIR$/docs/source/index.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/literaturverzeichnis.rst" afterPath="$PROJECT_DIR$/docs/source/literaturverzeichnis.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/references.bib" afterPath="$PROJECT_DIR$/docs/source/references.bib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/website.rst" afterPath="$PROJECT_DIR$/docs/source/website.rst" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,21 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auswertung.rst" pinned="false" current-in-tab="false">
+      <file leaf-file-name="auswertung.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/source/auswertung.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="einleitung.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/source/einleitung.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -67,14 +40,14 @@
       <file leaf-file-name="website.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/source/website.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="87" column="38" lean-forward="false" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="38" />
+            <state relative-caret-position="289">
+              <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conf.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="conf.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/source/conf.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-535">
@@ -115,13 +88,13 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/docs/source/references.bib" />
         <option value="$PROJECT_DIR$/docs/requirements.txt" />
-        <option value="$PROJECT_DIR$/docs/source/einleitung.rst" />
         <option value="$PROJECT_DIR$/docs/source/literaturverzeichnis.rst" />
         <option value="$PROJECT_DIR$/docs/source/website.rst" />
-        <option value="$PROJECT_DIR$/docs/source/client.rst" />
         <option value="$PROJECT_DIR$/docs/source/index.rst" />
-        <option value="$PROJECT_DIR$/docs/source/auswertung.rst" />
         <option value="$PROJECT_DIR$/docs/source/conf.py" />
+        <option value="$PROJECT_DIR$/docs/source/einleitung.rst" />
+        <option value="$PROJECT_DIR$/docs/source/client.rst" />
+        <option value="$PROJECT_DIR$/docs/source/auswertung.rst" />
       </list>
     </option>
   </component>
@@ -876,14 +849,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/website.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="87" column="38" lean-forward="false" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/source/loesungsansatz.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -900,34 +865,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/auswertung.rst">
+    <entry file="file://$PROJECT_DIR$/docs/source/conf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="-535">
+          <caret line="48" column="18" lean-forward="false" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/client.rst">
+    <entry file="file://$PROJECT_DIR$/docs/source/website.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="289">
+          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/source/einleitung.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state relative-caret-position="97">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/conf.py">
+    <entry file="file://$PROJECT_DIR$/docs/source/client.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-535">
-          <caret line="48" column="18" lean-forward="false" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        <state relative-caret-position="465">
+          <caret line="31" column="15" lean-forward="false" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/auswertung.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
           <folding />
         </state>
       </provider>
