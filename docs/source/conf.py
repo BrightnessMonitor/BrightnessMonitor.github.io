@@ -46,7 +46,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Brightness Monitor Doc'
-copyright = u'2017, 2017, Samuel Erb & Steffen Exler'
+copyright = u'2017, Samuel Erb & Steffen Exler'
 author = u'2017, Samuel Erb & Steffen Exler'
 
 # The version info for the project you're documenting, acts as replacement for

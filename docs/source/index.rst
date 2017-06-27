@@ -18,22 +18,6 @@ Einleitung
 
    einleitung
 
-Aufgabenstellung
-================
-
-.. toctree::
-   :maxdepth: 2
-
-   aufgabenstellung
-
-Lösungsansatz
-=============
-
-.. toctree::
-   :maxdepth: 2
-
-   loesungsansatz
-
 Client
 ======
 

@@ -9,14 +9,15 @@ gemessen und von einem Raspberry Pi verarbeitet. Als Ausgabe dessen wird sein: S
 Wolkendichte, Wolken mit verstärkter Wolkendichte, Dunkel. Gleichzeitig wird die Dauer dieser Zustände gemessen und
 in einer Datenbank gespeichert.
 
-Über das Programm
------------------
-Das Programm dient zur Auswertung von den Helligkeitswerten von mehreren Standorten. Dazu wurde
-eine Zentrale Webseite mit einer API Schnittstelle erstellt auf welche mehrere Raspberry Pi's zugreifen.
+Umgesetzt wurde
+---------------
 
-Die Website wertet mit jeden neuen daten upload die daten aus und gib diese Grafisch wieder.
+Ein Programm im Server - Client Verbund, wobei der Client die Licht Intensität misst und diese in 5 Minuten Takt zum
+Server weiter sendet. Die Klienten messen nur innerhalb der Zeit wo auch die Sonne scheint, dafür überigbt der Server
+dem Client den genauen Standort womit der Client ausrechnen kann, ob die Sonne scheint oder nicht.
 
-Das Projekt besteht aus 3 bestandteilen.
+Der Server ist eine Website welche die gesendeten Daten zusammen fasst und sie Grafisch in einer Karte & einem Chart
+ausgibt.
 
 .. figure:: _static/img/SoftwareDesign.png
     :alt: Software Design
@@ -67,8 +68,14 @@ Der Server wurde in das Python Web Framework "Django" geschrieben und auf einer 
 Dokumentation
 ^^^^^^^^^^^^^
 
+Die Dokumentation wurde mit Sphinx :cite:`SphinxHomepage` erstellt und gehostet auf `readthedocs.io`_  und `github.com`_.
+
+.. _readthedocs.io: https://readthedocs.io/
+.. _github.com: https://github.com/
+
 - Quellcode : https://github.com/BrightnessMonitor/BrightnessMonitor.github.io
 - Online Dokumentation: https://brightnessmonitor.github.io/
+- Read the docs: http://brightness-monitor-docs.readthedocs.io/de/latest/
 
 .. index:: Git
 .. index:: Quellcode

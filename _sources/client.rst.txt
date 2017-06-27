@@ -3,12 +3,28 @@ Client
 
 Verwendete Hardware
 -------------------
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+Das Project wurde mit einem Boilerplate :cite:`MendesPythonBoilerplate` gestartet.
+
+.. figure:: _static/img/raspberry-pi_01.jpg
+    :alt: Software Design
+
+    Raspberry Pi mit Sensor
+
+.. figure:: _static/img/raspberry-pi_02.jpg
+    :alt: Software Design
+
+    Raspberry Pi mit Sensor
 
 .. figure:: _static/img/raspberry-pi_03.jpg
     :alt: Software Design
 
     Raspberry Pi mit Sensor
+
+.. figure:: _static/img/hardware_01.jpg
+    :alt: Software Design
+
+    Raspberry Pi mit Sensor
+
 
 Sensoabfrage
 ------------
