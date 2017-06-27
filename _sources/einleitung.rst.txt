@@ -9,7 +9,6 @@ gemessen und von einem Raspberry Pi verarbeitet. Als Ausgabe dessen wird sein: S
 Wolkendichte, Wolken mit verstärkter Wolkendichte, Dunkel. Gleichzeitig wird die Dauer dieser Zustände gemessen und
 in einer Datenbank gespeichert.
 
-
 Über das Programm
 -----------------
 Das Programm dient zur Auswertung von den Helligkeitswerten von mehreren Standorten. Dazu wurde

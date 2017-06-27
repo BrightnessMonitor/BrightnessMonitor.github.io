@@ -61,6 +61,10 @@ Daten Auswertung
 Indices and tables
 ==================
 
+.. toctree::
+   :maxdepth: 2
+
+   literaturverzeichnis
+
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
