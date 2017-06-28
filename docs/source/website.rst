@@ -14,7 +14,7 @@ Als Software wurde das Python Framework `Django`_ eingesetzt mit dem `Django RES
 um eine Api Schnittstelle zu erzeugen. Die auswahl des Hoster fiel auf `heroku.com`_, da Heroku für Entwickler eine
 Gratis Instanz für Python Websites anbietet welche sich nach 30 Minuten inaktivität automatisch herunter fährt und
 eine `PostgreSQL`_ Datenbank mit 10.000 Zeilen enthält. Der Quellcode ist auf `github.com`_ gehostet und mit einem
-`_Webhook`_ :cite:`HerokuWebhook` verbunden, dadurch wird mit jedem Git push auf dem `Master Branch`_ der aktuelle
+`Webhook`_ :cite:`HerokuWebhook` verbunden, dadurch wird mit jedem Git push auf dem `Master Branch`_ der aktuelle
 Quellcode auf der Heroku Instanz gesendet.
 
 .. _Django: https://www.djangoproject.com/
@@ -66,12 +66,15 @@ mit einem Github Webhook :cite:`HerokuWebhook` ist das Deployment ausgeführt, s
 empfängt.
 
 .. |Heroku_Deployment| image:: _static/img/Heroku_deployment.png
+    :scale: 50%
 
 Außerdem wurde in der Repo Readme ein |Heroku_Deployment| :cite:`DeployToHeroku` Button eingesetzt. Um auch dritten
 die Möglichkeit zu geben, schnell und leicht diese Software auf ihrer Privaten Heroku Instanz einsetzen zu können.
 
 Probleme
 --------
+
+.. _datenbank:
 
 Zu kleine Datenbank
 ^^^^^^^^^^^^^^^^^^^

@@ -36,7 +36,7 @@
               href="genindex.html"/>
         <link rel="search" title="Suche" href="search.html"/>
     <link rel="top" title="Brightness Monitor Doc 1.0.0. Dokumentation" href="index.html"/>
-        <link rel="next" title="Daten Auswertung" href="auswertung.html"/>
+        <link rel="next" title="Projekt Auswertung" href="auswertung.html"/>
         <link rel="prev" title="Client" href="client.html"/> 
 
   
@@ -116,7 +116,7 @@
 </li>
 </ul>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="auswertung.html">Daten Auswertung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="auswertung.html">Projekt Auswertung</a></li>
 </ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="literaturverzeichnis.html">Literaturverzeichnis</a></li>
@@ -196,7 +196,7 @@ können. Auch war es wichtig möglichst kosten effektiv zu arbeiten und Resource
 um eine Api Schnittstelle zu erzeugen. Die auswahl des Hoster fiel auf <a class="reference external" href="https://heroku.com/">heroku.com</a>, da Heroku für Entwickler eine
 Gratis Instanz für Python Websites anbietet welche sich nach 30 Minuten inaktivität automatisch herunter fährt und
 eine <a class="reference external" href="https://www.postgresql.org/">PostgreSQL</a> Datenbank mit 10.000 Zeilen enthält. Der Quellcode ist auf <a class="reference external" href="https://github.com/">github.com</a> gehostet und mit einem
-<a href="#id11"><span class="problematic" id="id12">`_Webhook`_</span></a> <a class="reference internal" href="literaturverzeichnis.html#herokuwebhook" id="id2">[3]</a> verbunden, dadurch wird mit jedem Git push auf dem <a class="reference external" href="https://github.com/BrightnessMonitor/BrightnessMonitorWeb">Master Branch</a> der aktuelle
+<a class="reference external" href="https://developer.github.com/webhooks/">Webhook</a> <a class="reference internal" href="literaturverzeichnis.html#herokuwebhook" id="id2">[3]</a> verbunden, dadurch wird mit jedem Git push auf dem <a class="reference external" href="https://github.com/BrightnessMonitor/BrightnessMonitorWeb">Master Branch</a> der aktuelle
 Quellcode auf der Heroku Instanz gesendet.</p>
 </div>
 <div class="section" id="bestandteile-der-server-software">
@@ -228,14 +228,14 @@ Auf der zweiten Seite unter <code class="docutils literal"><span class="pre">/st
 als Grundgerüst verwendet und mit hilfe der Dokumentation von Heroku <a class="reference internal" href="literaturverzeichnis.html#herokudeployingdjango" id="id6">[6]</a>. In Kombination
 mit einem Github Webhook <a class="reference internal" href="literaturverzeichnis.html#herokuwebhook" id="id7">[3]</a> ist das Deployment ausgeführt, sobald der <a class="reference external" href="https://github.com/BrightnessMonitor/BrightnessMonitorWeb">Master Branch</a> ein git push
 empfängt.</p>
-<p>Außerdem wurde in der Repo Readme ein <img alt="Heroku_Deployment" src="_images/Heroku_deployment.png" /> <a class="reference internal" href="literaturverzeichnis.html#deploytoheroku" id="id8">[7]</a> Button eingesetzt. Um auch dritten
+<p>Außerdem wurde in der Repo Readme ein <a class="reference internal" href="_images/Heroku_deployment.png"><img alt="Heroku_Deployment" src="_images/Heroku_deployment.png" style="width: 73.5px; height: 16.0px;" /></a> <a class="reference internal" href="literaturverzeichnis.html#deploytoheroku" id="id8">[7]</a> Button eingesetzt. Um auch dritten
 die Möglichkeit zu geben, schnell und leicht diese Software auf ihrer Privaten Heroku Instanz einsetzen zu können.</p>
 </div>
 </div>
 <div class="section" id="probleme">
 <h2>Probleme<a class="headerlink" href="#probleme" title="Link zu dieser Überschrift">¶</a></h2>
 <div class="section" id="zu-kleine-datenbank">
-<h3>Zu kleine Datenbank<a class="headerlink" href="#zu-kleine-datenbank" title="Link zu dieser Überschrift">¶</a></h3>
+<span id="datenbank"></span><h3>Zu kleine Datenbank<a class="headerlink" href="#zu-kleine-datenbank" title="Link zu dieser Überschrift">¶</a></h3>
 <p>Da dei Gratis Instanz von Heroku nur eine 10.000 Zeilen <a class="reference external" href="https://www.postgresql.org/">PostgreSQL</a> Datenbank erlaubt war die Datenbank innerhalb
 der ersten Tagen zu 100% voll und das Design musste Resourcen sparender geändert werden. Dadurch wurden mit jedem Datenupload
 die Werte zusammengefasst zu einen Tages durchschnitts Wert</p>
@@ -259,7 +259,7 @@ Dokumentation <a class="reference internal" href="literaturverzeichnis.html#djan
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="auswertung.html" class="btn btn-neutral float-right" title="Daten Auswertung" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="auswertung.html" class="btn btn-neutral float-right" title="Projekt Auswertung" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="client.html" class="btn btn-neutral" title="Client" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

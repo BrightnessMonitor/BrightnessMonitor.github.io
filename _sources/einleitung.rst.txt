@@ -13,7 +13,7 @@ Umgesetzt wurde
 ---------------
 
 Ein Programm im Server - Client Verbund, wobei der Client die Licht Intensität misst und diese in 5 Minuten Takt zum
-Server weiter sendet. Die Klienten messen nur innerhalb der Zeit wo auch die Sonne scheint, dafür überigbt der Server
+Server weiter sendet. Die Klienten messen nur innerhalb der Zeit in der die Sonne scheint, dafür übergibt der Server
 dem Client den genauen Standort womit der Client ausrechnen kann, ob die Sonne scheint oder nicht.
 
 Der Server ist eine Website welche die gesendeten Daten zusammen fasst und sie Grafisch in einer Karte & einem Chart

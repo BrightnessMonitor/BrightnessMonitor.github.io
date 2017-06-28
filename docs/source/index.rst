@@ -34,8 +34,8 @@ Website
 
    website
 
-Daten Auswertung
-================
+Projekt Auswertung
+==================
 
 .. toctree::
    :maxdepth: 2

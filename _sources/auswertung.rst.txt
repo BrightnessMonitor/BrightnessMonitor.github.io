@@ -1,24 +1,53 @@
-Daten Auswertung
-================
+Projekt Auswertung
+==================
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Daten
+-----
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+Die gesammelten Daten reichten nicht für die gezielte Auswertung aus. Da uns die Zeit fehlte um die Probleme von dem
+Webserver Datenbank Problem zu lösen (siehe: :ref:`datenbank`).
 
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+Es ist nur der Tägliche Druchschnittswert eines jedem Gerätes zu erkennen, es ist aber nicht ab zu lesen wie lange
+Licht auf dem Gerät schien oder wie Intensiv, da auch die verwendete Hardware zu ungenau ist (siehe: :ref:`hardware`)
 
-.. figure:: _static/img/website_01.png
-    :alt: Screenshot
-    :align: center
-    :scale: 25%
+Was mit mehr Zeit umgesetzt wäre
+--------------------------------
 
-Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+Server Umzug
+^^^^^^^^^^^^
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.
+Da die Gratis Instanz von `heroku.com`_ eine zu kleine Datenbank enthielt ist eine Bezahlpflichtige `Heroku Postgres`_
+unausweichlich oder der Umzug auf dem `HTW Berlin Studie Server`_ bzw. auf das `Kostenloses Kontingent für AWS`_ doch
+beide Möglichkeiten würden einen erhöhten Zeitaufwand erzeugen.
 
-.. figure:: _static/img/raspberry-pi_02.jpg
-    :alt: Software Design
-    :align: center
-    :scale: 25%
+.. _heroku.com: https://heroku.com/
+.. _Heroku Postgres: https://elements.heroku.com/addons/heroku-postgresql
+.. _HTW Berlin Studie Server: https://studi.f4.htw-berlin.de/www/
+.. _Kostenloses Kontingent für AWS: https://aws.amazon.com/de/free/
 
-At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+Datenverarbeitung auf Server ausweiten
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Die empfangenden Daten von den Klienten stüdlich automatisch auswerten und dadurch die Datenlast minimieren.
+
+Ausführlichere Grafische Auswertung
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Auf einer `Open Street Map`_ mit dem `Leaflet Bibliothek`_ :cite:`Leaflet` grafisch die Wolkendichte anzeigen und
+die Bar Charts eine Stündliche Anzeige integrieren mit der warscheinlichen Wolkendichte.
+
+.. _Open Street Map: http://www.openstreetmap.org/
+.. _Leaflet Bibliothek: http://leafletjs.com/reference-1.1.0.html
+
+
+
+Client Log funtion integrieren
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Fehler und Status log inteiren um schneller Fehler in Hard & Software aufspüren zu können.
+
+Anpassung der Hardware
+^^^^^^^^^^^^^^^^^^^^^^
+
+--> ToDo
+genauere Messwerte durch Anpassung der Hardware (Photowiderstand, Kondensator)
