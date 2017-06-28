@@ -43,8 +43,6 @@ Projekt Auswertung
    auswertung
    literaturverzeichnis
 
-
-
 Indices and tables
 ==================
 

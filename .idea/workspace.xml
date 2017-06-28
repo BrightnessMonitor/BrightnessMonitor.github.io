@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29864292-f563-4787-92f4-ac95a9fb10c2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_images/SoftwareDesign.png" afterPath="$PROJECT_DIR$/_images/SoftwareDesign.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_static/fonts/Inconsolata-Bold.ttf" afterPath="$PROJECT_DIR$/_static/fonts/Inconsolata-Bold.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_static/fonts/Inconsolata-Regular.ttf" afterPath="$PROJECT_DIR$/_static/fonts/Inconsolata-Regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_static/fonts/Lato-Bold.ttf" afterPath="$PROJECT_DIR$/_static/fonts/Lato-Bold.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_static/fonts/Lato-Regular.ttf" afterPath="$PROJECT_DIR$/_static/fonts/Lato-Regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_static/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/_static/fonts/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_static/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/_static/fonts/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_static/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/_static/fonts/fontawesome-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_static/img/SoftwareDesign.png" afterPath="$PROJECT_DIR$/_static/img/SoftwareDesign.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/_static/img/Models.png" afterPath="$PROJECT_DIR$/docs/source/_static/img/Models.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/_static/img/SoftwareDesign.png" afterPath="$PROJECT_DIR$/docs/source/_static/img/SoftwareDesign.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_static/css/badge_only.css" afterPath="$PROJECT_DIR$/_static/css/badge_only.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_static/css/theme.css" afterPath="$PROJECT_DIR$/_static/css/theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_static/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/_static/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_static/js/theme.js" afterPath="$PROJECT_DIR$/_static/js/theme.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/_static/uml/Models.xml" afterPath="$PROJECT_DIR$/docs/source/_static/uml/Models.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/_static/uml/SoftwareDesign.xml" afterPath="$PROJECT_DIR$/docs/source/_static/uml/SoftwareDesign.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/auswertung.rst" afterPath="$PROJECT_DIR$/docs/source/auswertung.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/client.rst" afterPath="$PROJECT_DIR$/docs/source/client.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/conf.py" afterPath="$PROJECT_DIR$/docs/source/conf.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/einleitung.rst" afterPath="$PROJECT_DIR$/docs/source/einleitung.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/index.rst" afterPath="$PROJECT_DIR$/docs/source/index.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/literaturverzeichnis.rst" afterPath="$PROJECT_DIR$/docs/source/literaturverzeichnis.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/source/website.rst" afterPath="$PROJECT_DIR$/docs/source/website.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/einleitung.html" afterPath="$PROJECT_DIR$/einleitung.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/genindex.html" afterPath="$PROJECT_DIR$/genindex.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.html" afterPath="$PROJECT_DIR$/search.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +18,18 @@
       <file leaf-file-name="einleitung.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/source/einleitung.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="65" column="14" lean-forward="false" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/source/index.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="43" column="3" lean-forward="false" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -62,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="website.rst" pinned="false" current-in-tab="true">
+      <file leaf-file-name="website.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/source/website.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="213">
@@ -72,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="literaturverzeichnis.rst" pinned="false" current-in-tab="false">
+      <file leaf-file-name="literaturverzeichnis.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/source/literaturverzeichnis.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -127,13 +110,13 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/docs/source/references.bib" />
         <option value="$PROJECT_DIR$/docs/requirements.txt" />
-        <option value="$PROJECT_DIR$/docs/source/index.rst" />
         <option value="$PROJECT_DIR$/docs/source/conf.py" />
         <option value="$PROJECT_DIR$/docs/source/auswertung.rst" />
         <option value="$PROJECT_DIR$/docs/source/einleitung.rst" />
         <option value="$PROJECT_DIR$/docs/source/client.rst" />
-        <option value="$PROJECT_DIR$/docs/source/literaturverzeichnis.rst" />
         <option value="$PROJECT_DIR$/docs/source/website.rst" />
+        <option value="$PROJECT_DIR$/docs/source/index.rst" />
+        <option value="$PROJECT_DIR$/docs/source/literaturverzeichnis.rst" />
       </list>
     </option>
   </component>
@@ -669,6 +652,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27539343" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -678,7 +662,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19638555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19638555" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -982,14 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/source/auswertung.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -1006,26 +982,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/website.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/index.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="43" column="3" lean-forward="false" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/source/einleitung.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="65" column="14" lean-forward="false" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/source/literaturverzeichnis.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/website.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="41" column="14" lean-forward="false" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
