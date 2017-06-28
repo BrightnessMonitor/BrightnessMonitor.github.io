@@ -46,8 +46,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Brightness Monitor Doc'
-copyright = u'2017, Samuel Erb & Steffen Exler'
-author = u'2017, Samuel Erb & Steffen Exler'
+copyright = u'2017, s0556350 Samuel Erb & s0556166 Steffen Exler'
+author = u'2017, s0556350 Samuel Erb & s0556166 Steffen Exler'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -127,9 +127,8 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'BrightnessMonitorDoc.tex', u'Brightness Monitor Doc Documentation',
-     u'2017, Samuel Erb \\& Steffen Exler', 'manual'),
+     u's0556350 Samuel Erb \\& s0556166 Steffen Exler', 'manual'),
 ]
-
 
 # -- Options for manual page output ---------------------------------------
 

@@ -8,28 +8,28 @@ Das Project wurde mit einem Boilerplate :cite:`MendesPythonBoilerplate` gestarte
 .. figure:: _static/img/raspberry-pi_01.jpg
     :alt: Software Design
     :align: center
-    :scale: 25%
+    :scale: 10%
 
     Raspberry Pi mit Sensor
 
 .. figure:: _static/img/raspberry-pi_02.jpg
     :alt: Software Design
     :align: center
-    :scale: 25%
+    :scale: 10%
 
     Raspberry Pi mit Sensor
 
 .. figure:: _static/img/raspberry-pi_03.jpg
     :alt: Software Design
     :align: center
-    :scale: 25%
+    :scale: 10%
 
     Raspberry Pi mit Sensor
 
 .. figure:: _static/img/hardware_01.jpg
     :alt: Software Design
     :align: center
-    :scale: 25%
+    :scale: 10%
 
     Raspberry Pi mit Sensor
 

@@ -17,6 +17,8 @@ eine `PostgreSQL`_ Datenbank mit 10.000 Zeilen enthält. Der Quellcode ist auf `
 `Webhook`_ :cite:`HerokuWebhook` verbunden, dadurch wird mit jedem Git push auf dem `Master Branch`_ der aktuelle
 Quellcode auf der Heroku Instanz gesendet.
 
+.. index:: Heroku.com
+
 .. _Django: https://www.djangoproject.com/
 .. _Django REST Framework: http://www.django-rest-framework.org/
 .. _heroku.com: https://heroku.com/
@@ -37,8 +39,11 @@ Die Datenbank besteht aus 3 großen Komponenten, dem User, Device (Raspberry Pi)
 .. figure:: _static/img/Models.png
     :alt: Datenbank Model
     :align: center
+    :scale: 45%
 
     Datenbank Model
+
+.. index:: Datenbank
 
 API - Schnittstelle
 ^^^^^^^^^^^^^^^^^^^
@@ -47,6 +52,8 @@ Die Schnittstelle gibt bei einer leeren anfrage Value anfrage die latitude und l
 Device aus und wenn ein Wert mit gegeben wird, wird in der Datenbank überprüft ob der User mit dem gesendeten Auth Token
 das Device mit der gesendeten UUID gehört, wenn ja wird der gesendete Wert mit dem gesendeten Datum in der Datenbank
 gesichert.
+
+.. index:: API
 
 View - Ausgabe
 ^^^^^^^^^^^^^^
@@ -57,6 +64,8 @@ Auf der zweiten Seite unter ``/stats`` befinden sich Bar Charts :cite:`GoogleBar
 
 .. _Open Street Map: http://www.openstreetmap.org/
 
+.. index:: Open Street Map
+
 Deployment
 ^^^^^^^^^^
 
@@ -66,7 +75,7 @@ mit einem Github Webhook :cite:`HerokuWebhook` ist das Deployment ausgeführt, s
 empfängt.
 
 .. |Heroku_Deployment| image:: _static/img/Heroku_deployment.png
-    :scale: 50%
+    :scale: 35%
 
 Außerdem wurde in der Repo Readme ein |Heroku_Deployment| :cite:`DeployToHeroku` Button eingesetzt. Um auch dritten
 die Möglichkeit zu geben, schnell und leicht diese Software auf ihrer Privaten Heroku Instanz einsetzen zu können.
@@ -83,9 +92,13 @@ Da dei Gratis Instanz von Heroku nur eine 10.000 Zeilen `PostgreSQL`_ Datenbank 
 der ersten Tagen zu 100% voll und das Design musste Resourcen sparender geändert werden. Dadurch wurden mit jedem Datenupload
 die Werte zusammengefasst zu einen Tages durchschnitts Wert
 
+.. index:: Datenbank
+
 Schnittstelle Absichern vor dritten
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Das Ziel war das nur die Personen Daten hochladen dürfen, die den richtigen Auth Token + Device UUID senden. Dadurch aber
 das der Auth Token vom `Django REST Framework`_ integriert worden war, war es nur mit hilfe vom ausführlichen lesen der
 Dokumentation :cite:`DjangoRestApiDoc` möglich heraus zu finden, welcher User sich hinter welchen Request sich verbirgt.
+
+.. index:: API

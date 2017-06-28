@@ -41,14 +41,12 @@ Projekt Auswertung
    :maxdepth: 2
 
    auswertung
+   literaturverzeichnis
+
+
 
 Indices and tables
 ==================
-
-.. toctree::
-   :maxdepth: 2
-
-   literaturverzeichnis
 
 * :ref:`genindex`
 * :ref:`search`
