@@ -97,7 +97,7 @@ Die Präsentation wurde in PowerPoint erstellt und ist auf `github.com`_ gehosts
 
 .. _github.com: https://github.com/
 
-- Präsentation : :download:`Download Link (nur HTML version möglich)<source/_static/presentation/Presentation1.pptx>`.
+- Präsentation : :download:`Download Link<source/_static/presentation/Presentation1.pptx>`.
 
 .. index:: PowerPoint
 .. index:: Präsentation
