@@ -54,5 +54,12 @@ Fehler und Status log inteiren um schneller Fehler in Hard & Software aufspüren
 Anpassung der Hardware
 ^^^^^^^^^^^^^^^^^^^^^^
 
---> ToDo
-genauere Messwerte durch Anpassung der Hardware (Photowiderstand, Kondensator)
+Mit einem Kondensator der mehr Kapazität besitzt, würden die Messergebnisse bei starker Helligkeit (in dem von uns
+beobachteten Zeitraum von 11:00 bis 14:00 an sonnigen Tagen) genauer werden, da eine längere Zeit von Nöten wäre um ihn
+aufzuladen.
+
+Über den oben beschriebenen Zeitraum hatten wir Messwerte von „0“ was „sehr hell“ entspricht. Auf Grund dessen sind
+unsere Statistiken teils nicht aussagekräftig.
+
+Auch orientieren sich unsere Messwerte an keiner physikalischen Größe, sodass man diese nicht für andere Zwecke
+weiterverwenden könnte.

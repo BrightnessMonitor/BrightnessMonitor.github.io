@@ -89,8 +89,14 @@
 </ul>
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Client</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#client-software-design">Client Software Design</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#verwendete-hardware">Verwendete Hardware</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#sensoabfrage">Sensoabfrage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sensoabfrage">Sensoabfrage</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#aufbau">Aufbau</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#erlauterungerlauterung">ErläuterungErläuterung</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#funktionsweise">Funktionsweise</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#probleme">Probleme</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#hardware">Verwendete Hardware</a></li>
 </ul>
@@ -103,6 +109,7 @@
 </ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="auswertung.html">Projekt Auswertung</a></li>
+<li class="toctree-l1"><a class="reference internal" href="literaturverzeichnis.html">Literaturverzeichnis</a></li>
 </ul>
 
             
@@ -149,34 +156,92 @@
             
   <div class="section" id="client">
 <h1>Client<a class="headerlink" href="#client" title="Link zu dieser Überschrift">¶</a></h1>
+<div class="section" id="client-software-design">
+<h2>Client Software Design<a class="headerlink" href="#client-software-design" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Das Project wurde mit einem Boilerplate <a class="reference internal" href="literaturverzeichnis.html#mendespythonboilerplate" id="id1">[2]</a> gestartet. Und als installierbares Python
+Paket entwickelt. Um den Client leicht zu installieren und zu updaten.
+–&gt; Todo Samu weiter machen</p>
+</div>
 <div class="section" id="verwendete-hardware">
 <h2>Verwendete Hardware<a class="headerlink" href="#verwendete-hardware" title="Link zu dieser Überschrift">¶</a></h2>
-<p>Das Project wurde mit einem Boilerplate <a class="reference internal" href="literaturverzeichnis.html#mendespythonboilerplate" id="id1">[2]</a> gestartet.</p>
-<div class="figure align-center" id="id3">
+<p>–&gt; Todo Smau</p>
+<div class="figure align-center" id="id6">
 <a class="reference internal image-reference" href="_images/raspberry-pi_01.jpg"><img alt="Software Design" src="_images/raspberry-pi_01.jpg" style="width: 144.0px; height: 108.0px;" /></a>
 <p class="caption"><span class="caption-text">Raspberry Pi mit Sensor</span></p>
 </div>
-<div class="figure align-center" id="id4">
+<div class="figure align-center" id="id7">
 <a class="reference internal image-reference" href="_images/raspberry-pi_02.jpg"><img alt="Software Design" src="_images/raspberry-pi_02.jpg" style="width: 144.0px; height: 108.0px;" /></a>
 <p class="caption"><span class="caption-text">Raspberry Pi mit Sensor</span></p>
 </div>
-<div class="figure align-center" id="id5">
+<div class="figure align-center" id="id8">
 <a class="reference internal image-reference" href="_images/raspberry-pi_03.jpg"><img alt="Software Design" src="_images/raspberry-pi_03.jpg" style="width: 144.0px; height: 108.0px;" /></a>
 <p class="caption"><span class="caption-text">Raspberry Pi mit Sensor</span></p>
 </div>
-<div class="figure align-center" id="id6">
+<div class="figure align-center" id="id9">
 <a class="reference internal image-reference" href="_images/hardware_01.jpg"><img alt="Software Design" src="_images/hardware_01.jpg" style="width: 144.0px; height: 108.0px;" /></a>
 <p class="caption"><span class="caption-text">Raspberry Pi mit Sensor</span></p>
 </div>
 </div>
 <div class="section" id="sensoabfrage">
 <h2>Sensoabfrage<a class="headerlink" href="#sensoabfrage" title="Link zu dieser Überschrift">¶</a></h2>
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
+<div class="section" id="aufbau">
+<h3>Aufbau<a class="headerlink" href="#aufbau" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Um die derzeitige Helligkeit zu erfassen wurde in unserem Versuchsaufbau ein Fotowiderstand GL5528 LDR, ein Kondensator
+mit der Kapazität von einem Mikrofarad und 50 Volt Maximalspannung benutzt. Die negative Seite des Kondensators ist mit
+der Masse des Raspberry Pi’s (im folgendem schwarzes Kabel) verbunden, die positive Seite ist mit einer Seite des
+Fotowiderstands verbunden sowie an einen „GPIO“-Pin des Raspberry Pi’s (im folgendem blaues Kabel). Die andere Seite
+des Fotowiderstands ist mit einem „GPIO’-Pin verbunden an dem eine 3,3 Volt Spannung anliegt (im folgendem rotes Kabel).
+<a class="reference internal" href="literaturverzeichnis.html#raspberrypildr" id="id2">[10]</a></p>
+<div class="figure align-center" id="id10">
+<a class="reference internal image-reference" href="_images/raspberry-pi-ldr-fotowiderstand.png"><img alt="Raspberry Pi LDR Fototwiderstand" src="_images/raspberry-pi-ldr-fotowiderstand.png" style="width: 132.0px; height: 181.0px;" /></a>
+<p class="caption"><span class="caption-text">Raspberry Pi LDR Fototwiderstand <a class="reference internal" href="literaturverzeichnis.html#raspberrypildr" id="id3">[10]</a>
+Quelle: <a class="reference external" href="http://krausix.de/raspberry-pi-ldr-fotowiderstand/">http://krausix.de/raspberry-pi-ldr-fotowiderstand/</a></span></p>
+</div>
+</div>
+<div class="section" id="erlauterungerlauterung">
+<h3>ErläuterungErläuterung<a class="headerlink" href="#erlauterungerlauterung" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Der Widerstand des Fotowiderstandes ist lichtabhängig und verändert sich bei unterschiedlicher Helligkeit. In einem
+hellen Zustand ist der Widerstand größer (bei 10 Lux 8 ~ 20 K). In einem dunklen Zustand ist der Widerstand sehr gering
+(bei 0 Lux 1 M Minimum).</p>
+<p>Ein Kondensator im Gleichstromkreis lädt sich auf, bis seine Kapazität erreicht ist. Ist der Kondensator geladen
+fließt kein Strom.</p>
+</div>
+<div class="section" id="funktionsweise">
+<h3>Funktionsweise<a class="headerlink" href="#funktionsweise" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Es läuft nun ein Strom durch den Fotowiderstand in den Kondensator, dieser lädt sich ungefähr bis zu ¾ seiner Kapazität
+auf. Während dieses Vorgangs liegt kein Strom an blau an. In diesem Zeitraum wird ein Wert hochgezählt der später als
+Ausgabe der Funktion gilt. Ist der Kondensator nun zu ¾ geladen, wird der Widerstand größer und der Strom beginnt über
+das blaue Kabel zu fließen. Dies bemerkt der Raspberry Pi sofort und bricht den Vorgang ab. Der gezählte Wert wird in
+unserem Fall in eine Datenbank zusammen mit der aktuellen Zeit abgelegt und wird später in den nächsten Ablaufschritt
+übergeben.</p>
+<div class="literal-block-wrapper docutils container" id="id11">
+<div class="code-block-caption"><span class="caption-text">Code-Ausschnitt Messwerterfassung <a class="reference internal" href="literaturverzeichnis.html#raspberrypildr" id="id4">[10]</a></span><a class="headerlink" href="#id11" title="Link zu diesem Quellcode">¶</a></div>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="ch">#!/usr/bin/env python</span>
+
+<span class="hll"><span class="n">timing</span> <span class="o">=</span> <span class="mi">0</span>
+</span><span class="n">GPIOPIN</span> <span class="o">=</span> <span class="mi">11</span>
+<span class="hll"><span class="n">GPIO</span><span class="o">.</span><span class="n">setmode</span><span class="p">(</span><span class="n">GPIO</span><span class="o">.</span><span class="n">BCM</span><span class="p">)</span>
+</span>
+<span class="k">def</span> <span class="nf">RCtime</span> <span class="p">(</span><span class="n">RCpin</span><span class="p">):</span>
+    <span class="n">reading</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">GPIO</span><span class="o">.</span><span class="n">setup</span><span class="p">(</span><span class="n">RCpin</span><span class="p">,</span> <span class="n">GPIO</span><span class="o">.</span><span class="n">OUT</span><span class="p">)</span>
+    <span class="n">GPIO</span><span class="o">.</span><span class="n">output</span><span class="p">(</span><span class="n">RCpin</span><span class="p">,</span> <span class="n">GPIO</span><span class="o">.</span><span class="n">LOW</span><span class="p">)</span>
+    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.1</span><span class="p">)</span>
+
+    <span class="n">GPIO</span><span class="o">.</span><span class="n">setup</span><span class="p">(</span><span class="n">RCpin</span><span class="p">,</span> <span class="n">GPIO</span><span class="o">.</span><span class="n">IN</span><span class="p">)</span>
+    <span class="k">while</span> <span class="p">(</span><span class="n">GPIO</span><span class="o">.</span><span class="n">input</span><span class="p">(</span><span class="n">RCpin</span><span class="p">)</span> <span class="o">==</span> <span class="n">GPIO</span><span class="o">.</span><span class="n">LOW</span><span class="p">):</span>
+        <span class="n">reading</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">reading</span>
+</pre></div>
+</div>
+</div>
+</div>
 </div>
 <div class="section" id="probleme">
 <h2>Probleme<a class="headerlink" href="#probleme" title="Link zu dieser Überschrift">¶</a></h2>
+<p>–&gt; Todo Samu</p>
 <div class="section" id="hardware">
-<span id="id2"></span><h3>Verwendete Hardware<a class="headerlink" href="#hardware" title="Link zu dieser Überschrift">¶</a></h3>
+<span id="id5"></span><h3>Verwendete Hardware<a class="headerlink" href="#hardware" title="Link zu dieser Überschrift">¶</a></h3>
 <p>Das erste Problem stellt der Helligkeitsverlauf über einen Tag dar: umso rechtwinkliger die Sonne zum Standort, desto
 intensiver wird das Licht. Daraus würden fehlerhafte Messdaten hervorgehen, denn z.B. eine Wolke die mittags die Sonne
 verdeckt könnte äquivalent zu Sonnenschein nach dem Sonnenaufgang sein. Es muss also eine Justierung der Messdaten
