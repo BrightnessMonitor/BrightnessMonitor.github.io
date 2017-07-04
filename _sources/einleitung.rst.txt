@@ -97,7 +97,9 @@ Die Präsentation wurde in PowerPoint erstellt und ist auf `github.com`_ gehosts
 
 .. _github.com: https://github.com/
 
-- Präsentation : :download:`Download Link<source/_static/presentation/Presentation1.pptx>`.
+- Präsentation : `Download Link`_
+
+.. _Download Link: https://github.com/BrightnessMonitor/BrightnessMonitor.github.io/blob/master/docs/source/_static/presentation/Presentation1.pptx?raw=true
 
 .. index:: PowerPoint
 .. index:: Präsentation

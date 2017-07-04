@@ -55,13 +55,12 @@ Fotowiderstands verbunden sowie an einen „GPIO“-Pin des Raspberry Pi’s (im
 des Fotowiderstands ist mit einem „GPIO’-Pin verbunden an dem eine 3,3 Volt Spannung anliegt (im folgendem rotes Kabel).
 :cite:`RaspberryPiLDR`
 
-.. figure:: _static/img/raspberry-pi-ldr-fotowiderstand.png
-    :alt: Raspberry Pi LDR Fototwiderstand
+.. figure:: _static/img/Versuchsaufbau_Steckplatine.jpg
+    :alt: Raspberry Pi Versuchsaufbau mir Steckplatine und LDR Fototwiderstand
     :align: center
-    :scale: 100%
+    :scale: 10%
 
-    Raspberry Pi LDR Fototwiderstand :cite:`RaspberryPiLDR`
-    Quelle: http://krausix.de/raspberry-pi-ldr-fotowiderstand/
+    Raspberry Pi Versuchsaufbau mir Steckplatine und LDR Fototwiderstand :cite:`RaspberryPiLDR`
 
 ErläuterungErläuterung
 ^^^^^^^^^^^^^^^^^^^^^^
